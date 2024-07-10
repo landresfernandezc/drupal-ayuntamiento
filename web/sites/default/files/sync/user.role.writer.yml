@@ -1,0 +1,30 @@
+uuid: 77d7110b-2c6e-4844-abdc-76e2b3be9291
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.article
+    - node.type.event
+    - node.type.news
+    - node.type.page
+  module:
+    - node
+id: writer
+label: Redactor
+weight: 5
+is_admin: null
+permissions:
+  - 'create event content'
+  - 'create news content'
+  - 'create page content'
+  - 'edit any article content'
+  - 'edit any event content'
+  - 'edit any news content'
+  - 'edit any page content'
+  - 'edit own article content'
+  - 'edit own event content'
+  - 'edit own news content'
+  - 'edit own page content'
+  - 'view event revisions'
+  - 'view news revisions'
+  - 'view page revisions'

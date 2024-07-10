@@ -1,0 +1,14 @@
+uuid: 87e9cb53-c425-4bf3-846a-51aebac31eeb
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.checker
+  module:
+    - user
+id: user_remove_role_action.checker
+label: 'Elimina el rol Revisor al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: checker

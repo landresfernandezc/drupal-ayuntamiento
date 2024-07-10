@@ -1,0 +1,22 @@
+uuid: bda78874-235b-4031-885d-1741e637fcdb
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: news_pattern
+label: 'Patrón para noticias'
+type: 'canonical_entities:node'
+pattern: '/noticia/[node:title]'
+selection_criteria:
+  d4269120-6d3c-4c4a-9eab-a31adab432fb:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: d4269120-6d3c-4c4a-9eab-a31adab432fb
+    context_mapping:
+      node: node
+    bundles:
+      news: news
+selection_logic: and
+weight: -5
+relationships: {  }

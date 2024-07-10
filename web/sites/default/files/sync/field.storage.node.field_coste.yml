@@ -1,0 +1,27 @@
+uuid: 1bb0dd43-b541-44df-9f52-f3c01b731235
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_coste
+field_name: field_coste
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: free
+      label: Gratuito
+    -
+      value: payment
+      label: 'De pago'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

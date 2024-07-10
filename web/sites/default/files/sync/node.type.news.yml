@@ -1,0 +1,18 @@
+uuid: cebcad3a-9590-480f-8c30-72270ebb407d
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Noticias
+type: news
+description: 'Tipo de contenido que va ha funcionar para ver el contenido de noticias.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

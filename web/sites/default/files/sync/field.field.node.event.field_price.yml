@@ -1,0 +1,23 @@
+uuid: 9cabe399-b028-4707-935e-504a1efae49c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price
+    - node.type.event
+id: node.event.field_price
+field_name: field_price
+entity_type: node
+bundle: event
+label: Precio
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: $
+  suffix: ''
+field_type: integer

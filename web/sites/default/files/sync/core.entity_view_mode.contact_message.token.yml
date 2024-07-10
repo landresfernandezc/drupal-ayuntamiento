@@ -1,0 +1,11 @@
+uuid: adb7627b-09ea-4e55-9458-d8af8840ff21
+langcode: es
+status: true
+dependencies:
+  module:
+    - contact
+id: contact_message.token
+label: Comodín
+description: ''
+targetEntityType: contact_message
+cache: true

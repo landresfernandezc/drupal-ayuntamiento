@@ -1,0 +1,29 @@
+uuid: 4e68af0b-5cc5-456e-b6e9-057bb25ed01c
+langcode: es
+status: false
+dependencies:
+  config:
+    - views.view.frontpage
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__frontpage_block_2
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'views_block:frontpage-block_2'
+settings:
+  id: 'views_block:frontpage-block_2'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

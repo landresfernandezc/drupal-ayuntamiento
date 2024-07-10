@@ -1,0 +1,22 @@
+uuid: b67aadcf-2449-45d1-b04d-2b24b7f743f7
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: event_pattern
+label: 'Patrón para eventos'
+type: 'canonical_entities:node'
+pattern: '/evento/[node:field_category]/[node:field_date]/[node:title]'
+selection_criteria:
+  97d5997b-9ca5-40a0-a5fc-8ce9f4be53a3:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 97d5997b-9ca5-40a0-a5fc-8ce9f4be53a3
+    context_mapping:
+      node: node
+    bundles:
+      event: event
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,14 @@
+uuid: 3ce2ef34-ab34-4df5-a1cb-d825986914e1
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.writer
+  module:
+    - user
+id: user_add_role_action.writer
+label: 'Añade el rol Redactor al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: writer

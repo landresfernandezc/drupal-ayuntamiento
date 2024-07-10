@@ -1,0 +1,9 @@
+uuid: 0e07003a-f4c1-46c4-a2dd-bef8002d74a5
+langcode: es
+status: true
+dependencies: {  }
+name: 'Categoría de evento'
+vid: term_event_category
+description: null
+weight: 0
+new_revision: false

@@ -1,0 +1,14 @@
+uuid: 020aad8a-c51a-4b87-932f-c91731b7a183
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.writer
+  module:
+    - user
+id: user_remove_role_action.writer
+label: 'Elimina el rol Redactor al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: writer

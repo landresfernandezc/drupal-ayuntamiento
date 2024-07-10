@@ -1,0 +1,19 @@
+uuid: a5f0fdfb-5de5-4666-a4d3-e04c9e37f11a
+langcode: es
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+    - field.storage.comment.field_email
+id: comment.comment.field_email
+field_name: field_email
+entity_type: comment
+bundle: comment
+label: 'Correo Electronico'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email
