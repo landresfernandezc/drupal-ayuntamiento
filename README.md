@@ -1,3 +1,15 @@
+If you are not using the database shared by me run the following commands
+git clone <repo>
+ddev start
+ddev composer install
+ddev drush site:install -y
+ddev drush config:set system.site uuid 09aa893d-74c2-47d3-9aa2-e1f81313a6e6 -y
+ddev drush entity:delete shortcut
+ddev drush entity:delete shortcut_set default
+ddev drush cim -y && ddev drush cr
+ddev drush uli
+
+
 Need to install ddev and docker
 How to create a drupal project from 0's
 ddev config --project-name=ayuntamiento --project-type=drupal10 --docroot=web --create-docroot

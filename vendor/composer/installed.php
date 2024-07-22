@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'drupal/recommended-project',
-        'pretty_version' => 'dev-master',
-        'version' => 'dev-master',
-        'reference' => 'de33edb312f947706b6d732aa98043e87aa96e70',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '677838352020c8b1dbf8577d26ff0941227f740d',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -434,9 +434,9 @@
             'dev_requirement' => false,
         ),
         'drupal/recommended-project' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
-            'reference' => 'de33edb312f947706b6d732aa98043e87aa96e70',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '677838352020c8b1dbf8577d26ff0941227f740d',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
